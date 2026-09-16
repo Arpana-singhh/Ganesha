@@ -188,7 +188,6 @@ h1 {
   align-items: center;
   justify-content: center;
   animation: fadeUp 1s 0.2s ease both;
-  display:none;
 }
 
 .mandala {
