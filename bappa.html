@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101010" />
+  <meta name="description" content="Receive a little blessing from Bappa." />
+
+  <title>Bappa's Blessing | गणपति बप्पा मोरया</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Sans+Gujarati:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/bappa.css">
+</head>
+
+<body>
+
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div class="particles" id="particles"></div>
+
+  <main class="page">
+
+    <div class="top-ornament">
+      <span class="om">ॐ</span>
+    </div>
+
+    <header class="header">
+      <p class="eyebrow">A Little Blessing, Just For You</p>
+      <h1>Bappa's Blessing</h1>
+      <p class="subtitle">
+        Pause for a moment. Open your heart.<br>
+        Let Bappa's blessings find you.
+      </p>
+    </header>
+
+    <section class="ganpati-stage" aria-label="Decorative Ganpati illustration">
+      <div class="mandala"></div>
+      <div class="mandala-center"></div>
+
+      <span class="stage-spark spark-one">✦</span>
+      <span class="stage-spark spark-two">✧</span>
+      <span class="stage-spark spark-three">✧</span>
+      <span class="stage-spark spark-four">✦</span>
+
+      <div class="ganpati">
+        <img class="ganpati-img" src="style/images/bappa-img.png" alt="Ganpati Bappa" />
+      </div>
+    </section>
+
+    <section class="blessing-card" aria-live="polite">
+      <span class="card-corner corner-tl"></span>
+      <span class="card-corner corner-tr"></span>
+      <span class="card-corner corner-bl"></span>
+      <span class="card-corner corner-br"></span>
+
+      <div class="card-label">Your Blessing</div>
+
+      <div class="blessing-text" id="blessingText">
+        Close your eyes for a moment.<br>
+        Your blessing awaits.
+      </div>
+
+      <div class="blessing-signature" id="blessingSignature">
+        — गणपति बप्पा मोरया —
+      </div>
+    </section>
+
+    <section class="controls">
+
+      <button class="blessing-button" id="blessingButton">
+        <span class="button-icon">✦</span>
+        <span id="buttonText">Receive Bappa's Blessing</span>
+      </button>
+
+      <div class="language-switcher" aria-label="Select language">
+        <button class="lang-btn active" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="gu">ગુજરાતી</button>
+        <button class="lang-btn" data-lang="hi">हिंदी</button>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer-mantra">गणपति बप्पा मोरया</div>
+      <div class="footer-note">May your days be filled with grace</div>
+
+      <div class="brand">
+        <span class="brand-label">Crafted with devotion by</span>
+        <img class="brand-logo" src="style/images/logo-dark.png" alt="Pavans Group logo" />
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
