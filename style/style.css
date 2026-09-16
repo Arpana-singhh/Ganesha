@@ -188,6 +188,7 @@ h1 {
   align-items: center;
   justify-content: center;
   animation: fadeUp 1s 0.2s ease both;
+  display:none;
 }
 
 .mandala {
@@ -310,6 +311,7 @@ h1 {
   height: 18px;
   border-color: rgba(201, 154, 66, 0.5);
   border-style: solid;
+  border-color: var(--saffron);
 }
 
 .corner-tl {
@@ -484,7 +486,7 @@ h1 {
   background: transparent;
   cursor: pointer;
   font-family: "DM Sans", sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   transition: all 0.2s ease;
 }
@@ -653,5 +655,14 @@ h1 {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
+  }
+}
+
+
+@media (min-width: 480px) {
+  .blessing-button {
+    min-height: 41px;
+    padding: 12px 22px;
+    font-size: 13px;
   }
 }
