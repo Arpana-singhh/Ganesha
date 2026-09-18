@@ -665,3 +665,7 @@ h1 {
     font-size: 13px;
   }
 }
+
+.header, .blessing-card, .controls, .footer{
+display:none;
+}
